@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Perfect DOS VGA 437';
+	src: url('vga437.woff') format('woff');
+}
+
+/* Sets up the headers */
+h1 { font-size: 4em; }
+h2 { font-size: 3em; }
+
+h1, h2 {
+	font-family: 'Perfect DOS VGA 437', System, mono;
+	font-weight: normal;
+}
+
+
+/* Misc theming */
+
+.rounded { border-radius: 15px; }
+
+
+/* Light theme */
+
+body {
+	background-color: #EFE;
+	color: #050;
+}
+
+
+/* Dark Theme */
+
+@media screen and (prefers-color-scheme: dark) {
+	body {
+		background-color: #000700;
+		color: #AFA;
+	}
+}
