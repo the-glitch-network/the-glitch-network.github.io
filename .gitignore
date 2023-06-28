@@ -1,2 +1,5 @@
-/.idea/
+.bundle/
+.idea/
+.jekyll-cache/
+_site/
 *.iml
